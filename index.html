@@ -43,12 +43,19 @@
      </div>
      <div class="square">
       <picture>
-        <source srcset=""
-        media=""/>
-        <source srcset=""
-        media=""/>
-        <source srcset=""
-        media=""/>
+        <source srcset="images/square/museum-800x800.jpg 1x, 
+        images/square/museum-1600x1600.jpg 2x,
+        images/square/museum-2400x2400.jpg 3x"
+        media="(min-width:1600px)"/>
+        <source srcset="images/square/museum-640x640.jpg 1x,
+        images/square/museum-1280x1280.jpg 2x,
+        images/square/museum-1920x1920.jpg 3x"
+        media="(min-width:1280px)"/>
+        <source srcset="images/square/museum-480x480.jpg 1x,
+        images/square/museum-960x960.jpg 2x,
+        images/square/museum-1440x1440.jpg 3x"
+        media="(min-width:960px)"/>
+        <img src="images/square/museum-640x640.jpg" alt="placeholder">
       </picture>
      </div>
   </main>
