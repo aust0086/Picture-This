@@ -34,6 +34,11 @@ img {
 }
 
 @media (min-width: 960px) {
+  .title {
+    grid-area: title;
+    display: flex;
+
+  }
 
   .header {
     grid-template-columns: repeat(2, 1fr);
@@ -48,14 +53,6 @@ img {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
     grid-template-areas: "title square";
-  }
-
-  .title {
-    grid-area: title;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center; */
   }
 
   .square {
