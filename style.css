@@ -36,8 +36,6 @@ img {
 @media (min-width: 960px) {
   .title {
     grid-area: title;
-    display: flex;
-
   }
 
   .header {
